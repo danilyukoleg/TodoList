@@ -37,6 +37,7 @@ const render = function () {
 
 
     localStorage.setItem('text', JSON.stringify(toDoData));
+        toDoData = JSON.parse(localStorage.getItem('text'));
 
     })
 }
